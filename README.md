@@ -1,6 +1,6 @@
 # Obsidian-advanced-theme-template
 
-Clone the repository and move "theme template folder" to your ".obsidian/themes" vault folder, modify the file css file and json.
+Clone the repository and move "Template" folder to your ".obsidian/themes" vault folder, modify the file css file and json.
 
 Select and activate your theme in obsidian_settings-appareance-themes.
 
