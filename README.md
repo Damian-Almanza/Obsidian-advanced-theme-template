@@ -1,0 +1,1 @@
+# Obsidian-advanced-theme-template
