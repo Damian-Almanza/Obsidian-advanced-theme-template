@@ -1141,7 +1141,7 @@ Obsidian theme template by Damøn-2025
   /*.ͼ1*/
   /*.ͼ2*/
 
-/* ---- Animations & effects ---- */
+/* ---- Animations & styles ---- */
   .clickable-icon:not(.input-right-decorator):not(.sidebar-toggle-button-icon) svg,
   .vertical-tab-nav-item,
   .workspace-tab-header-inner-icon,
@@ -1221,14 +1221,19 @@ Obsidian theme template by Damøn-2025
     background-color: var(--interactive-accent);
     opacity: 0.1;
   }
+  html {
+    background-color: rgb(0, 0, 0);
+  }
+  body.obsidian-app  {
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+  }
 
 /* ---- Optional ---- */
 /*
-.tree-item.nav-folder:has(> .tree-item-children:not([style*="height: 0"])) > .tree-item-self.nav-folder-title.is-clickable.mod-collapsible,
+.tree-item.nav-folder:has(> .tree-item-children:not([style*="height: 0"])) > .tree-item-self.nav-folder-title.is-clickable.mod-collapsible, 
 .tree-item-self.bookmark.mod-collapsible.is-clickable:has(> .tree-item-icon:not(.is-collapsed)),
-.tree-item.nav-folder:has(> .tree-item-children:not([style*="height: 0"])) 
-> .tree-item-self.nav-folder-title.is-clickable.mod-collapsible 
-.tree-item-inner.nav-folder-title-content {
+.tree-item.nav-folder:has(> .tree-item-children:not([style*="height: 0"]))> .tree-item-self.nav-folder-title.is-clickable.mod-collapsible.tree-item-inner.nav-folder-title-content {
   transition: background-color 0.3s ease;
   background-color: var(--interactive-accent);
 }
