@@ -1,9 +1,19 @@
 # Obsidian-advanced-theme-template
 
+## How to install
 Clone the repository and move "Template" folder to your ".obsidian/themes" vault folder, modify the file css file and json.  
   
-Select and activate your theme in obsidian_settings-appareance-themes.  
-  
+Select and activate your theme in obsidian_settings-appareance-themes.
+
+
+## What is in this template?
++ Base 64 custom embed font
++ All obsidian variables
++ Base 64 custom SVG icons
++ Dynamic hover animations/colors 
++ Modal background blured effect
++ Rounden window interface
+
 this template is compatible with obsidian v1.9.10 and above  
 The info reference is from [obsdian documentation](https://docs.obsidian.md/Home)  
 Report erros in [github repo](https://github.com/Damian-Almanza/Obsidian-advanced-theme-template)  

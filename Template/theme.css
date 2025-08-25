@@ -8,7 +8,27 @@ Obsidian theme template by Damøn-2025
 */
 
 /* ---- Embed custom font ---- */
-  /*@font-face{}*/
+  /*System font
+    @font-face {
+    font-family: 'interaceFont';
+    src: url('') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }*/
+  /*Text font
+    @font-face {
+    font-family: 'textFont';
+    src: url('') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }*/
+  /*Monospace font
+    @font-face {
+    font-family: 'monospaceFont';
+    src: url('') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }*/
 
 /* ---- Obsidian variables ---- */
   /*FOUNDATIONS*/
@@ -752,138 +772,138 @@ Obsidian theme template by Damøn-2025
     /*--page-title-weight:;*/                                 /*Font weight*/
 
 /*---- SVG Icons ----*/
-  /*svg.canvas-background{}*/
-  /*svg.canvas-edges{}*/
-  /*svg.help{}*/
-  /*svg.links-coming-in{}*/
-  /*svg.links-going-out{}*/
-  /*svg.lucide-alert-triangle{}*/
-  /*svg.lucide-archive{}*/
-  /*svg.lucide-arrow-left{}*/
-  /*svg.lucide-arrow-right{}*/
-  /*svg.lucide-arrow-up-down{}*/
-  /*svg.lucide-arrow-up-right{}*/
-  /*svg.lucide-binary{}*/
-  /*svg.lucide-bold{}*/
-  /*svg.lucide-book-open{}*/
-  /*svg.lucide-bookmark{}*/
-  /*svg.lucide-bookmark-plus{}*/
-  /*svg.lucide-box-select{}*/
-  /*svg.lucide-bug{}*/
-  /*svg.lucide-calendar{}*/
-  /*svg.lucide-check{}*/
-  /*svg.lucide-check-square{}*/
-  /*svg.lucide-chevron-down{}*/
-  /*svg.lucide-chevron-right{}*/
-  /*svg.lucide-chevron-up{}*/
-  /*svg.lucide-chevrons-down-up{}*/
-  /*svg.lucide-chevrons-up-down{}*/
-  /*svg.lucide-clipboard-check{}*/
-  /*svg.lucide-clipboard-type{}*/
-  /*svg.lucide-clock{}*/
-  /*svg.lucide-code{}*/
-  /*svg.lucide-code-2{}*/
-  /*svg.lucide-code-xml{}*/
-  /*svg.lucide-copy{}*/
-  /*svg.lucide-edit{}*/
-  /*svg.lucide-edit-3{}*/
-  /*svg.lucide-eraser{}*/
-  /*svg.lucide-external-link{}*/
-  /*svg.lucide-file{}*/
-  /*svg.lucide-file-down{}*/
-  /*svg.lucide-file-image{}*/
-  /*svg.lucide-file-search{}*/
-  /*svg.lucide-file-signature{}*/
-  /*svg.lucide-file-text{}*/
-  /*svg.lucide-files{}*/
-  /*svg.lucide-filter{}*/
-  /*svg.lucide-folder-closed{}*/
-  /*svg.lucide-folder-open{}*/
-  /*svg.lucide-folder-plus{}*/
-  /*svg.lucide-folder-tree{}*/
-  /*svg.lucide-forward{}*/
-  /*svg.lucide-gallery-vertical{}*/
-  /*svg.lucide-git-branch-plus{}*/
-  /*svg.lucide-git-fork{}*/
-  /*svg.lucide-git-merge{}*/
-  /*svg.lucide-github{}*/
-  /*svg.lucide-grid{}*/
-  /*svg.lucide-grip-vertical{}*/
-  /*svg.lucide-heading-1{}*/
-  /*svg.lucide-heading-2{}*/
-  /*svg.lucide-heading-3{}*/
-  /*svg.lucide-heading-4{}*/
-  /*svg.lucide-heading-5{}*/
-  /*svg.lucide-heading-6{}*/
-  /*svg.lucide-help-circle{}*/
-  /*svg.lucide-highlighter{}*/
-  /*svg.lucide-history{}*/
-  /*svg.lucide-image{}*/
-  /*svg.lucide-info{}*/
-  /*svg.lucide-inspect{}*/
-  /*svg.lucide-italic{}*/
-  /*svg.lucide-keyboard{}*/
-  /*svg.lucide-layers{}*/
-  /*svg.lucide-layout{}*/
-  /*svg.lucide-layout-dashboard{}*/
-  /*svg.lucide-layout-list{}*/
-  /*svg.lucide-link{}*/
-  /*svg.lucide-list{}*/
-  /*svg.lucide-list-filter{}*/
-  /*svg.lucide-list-ordered{}*/
-  /*svg.lucide-list-plus{}*/
-  /*svg.lucide-lock{}*/
-  /*svg.lucide-maximize{}*/
-  /*svg.lucide-minus{}*/
-  /*svg.lucide-monitor{}*/
-  /*svg.lucide-more-horizontal{}*/
-  /*svg.lucide-more-vertical{}*/
-  /*svg.lucide-move-vertical{}*/
-  /*svg.lucide-paintbrush{}*/
+  /*svg.canvas-background{background-image: url("");}*/
+  /*svg.canvas-edges{background-image: url("");}*/
+  /*svg.help{background-image: url("");}*/
+  /*svg.links-coming-in{background-image: url("");}*/
+  /*svg.links-going-out{background-image: url("");}*/
+  /*svg.lucide-alert-triangle{background-image: url("");}*/
+  /*svg.lucide-archive{background-image: url("");}*/
+  /*svg.lucide-arrow-left{background-image: url("");}*/
+  /*svg.lucide-arrow-right{background-image: url("");}*/
+  /*svg.lucide-arrow-up-down{background-image: url("");}*/
+  /*svg.lucide-arrow-up-right{background-image: url("");}*/
+  /*svg.lucide-binary{background-image: url("");}*/
+  /*svg.lucide-bold{background-image: url("");}*/
+  /*svg.lucide-book-open{background-image: url("");}*/
+  /*svg.lucide-bookmark{background-image: url("");}*/
+  /*svg.lucide-bookmark-plus{background-image: url("");}*/
+  /*svg.lucide-box-select{background-image: url("");}*/
+  /*svg.lucide-bug{background-image: url("");}*/
+  /*svg.lucide-calendar{background-image: url("");}*/
+  /*svg.lucide-check{background-image: url("");}*/
+  /*svg.lucide-check-square{background-image: url("");}*/
+  /*svg.lucide-chevron-down{background-image: url("");}*/
+  /*svg.lucide-chevron-right{background-image: url("");}*/
+  /*svg.lucide-chevron-up{background-image: url("");}*/
+  /*svg.lucide-chevrons-down-up{background-image: url("");}*/
+  /*svg.lucide-chevrons-up-down{background-image: url("");}*/
+  /*svg.lucide-clipboard-check{background-image: url("");}*/
+  /*svg.lucide-clipboard-type{background-image: url("");}*/
+  /*svg.lucide-clock{background-image: url("");}*/
+  /*svg.lucide-code{background-image: url("");}*/
+  /*svg.lucide-code-2{background-image: url("");}*/
+  /*svg.lucide-code-xml{background-image: url("");}*/
+  /*svg.lucide-copy{background-image: url("");}*/
+  /*svg.lucide-edit{background-image: url("");}*/
+  /*svg.lucide-edit-3{background-image: url("");}*/
+  /*svg.lucide-eraser{background-image: url("");}*/
+  /*svg.lucide-external-link{background-image: url("");}*/
+  /*svg.lucide-file{background-image: url("");}*/
+  /*svg.lucide-file-down{background-image: url("");}*/
+  /*svg.lucide-file-image{background-image: url("");}*/
+  /*svg.lucide-file-search{background-image: url("");}*/
+  /*svg.lucide-file-signature{background-image: url("");}*/
+  /*svg.lucide-file-text{background-image: url("");}*/
+  /*svg.lucide-files{background-image: url("");}*/
+  /*svg.lucide-filter{background-image: url("");}*/
+  /*svg.lucide-folder-closed{background-image: url("");}*/
+  /*svg.lucide-folder-open{background-image: url("");}*/
+  /*svg.lucide-folder-plus{background-image: url("");}*/
+  /*svg.lucide-folder-tree{background-image: url("");}*/
+  /*svg.lucide-forward{background-image: url("");}*/
+  /*svg.lucide-gallery-vertical{background-image: url("");}*/
+  /*svg.lucide-git-branch-plus{background-image: url("");}*/
+  /*svg.lucide-git-fork{background-image: url("");}*/
+  /*svg.lucide-git-merge{background-image: url("");}*/
+  /*svg.lucide-github{background-image: url("");}*/
+  /*svg.lucide-grid{background-image: url("");}*/
+  /*svg.lucide-grip-vertical{background-image: url("");}*/
+  /*svg.lucide-heading-1{background-image: url("");}*/
+  /*svg.lucide-heading-2{background-image: url("");}*/
+  /*svg.lucide-heading-3{background-image: url("");}*/
+  /*svg.lucide-heading-4{background-image: url("");}*/
+  /*svg.lucide-heading-5{background-image: url("");}*/
+  /*svg.lucide-heading-6{background-image: url("");}*/
+  /*svg.lucide-help-circle{background-image: url("");}*/
+  /*svg.lucide-highlighter{background-image: url("");}*/
+  /*svg.lucide-history{background-image: url("");}*/
+  /*svg.lucide-image{background-image: url("");}*/
+  /*svg.lucide-info{background-image: url("");}*/
+  /*svg.lucide-inspect{background-image: url("");}*/
+  /*svg.lucide-italic{background-image: url("");}*/
+  /*svg.lucide-keyboard{background-image: url("");}*/
+  /*svg.lucide-layers{background-image: url("");}*/
+  /*svg.lucide-layout{background-image: url("");}*/
+  /*svg.lucide-layout-dashboard{background-image: url("");}*/
+  /*svg.lucide-layout-list{background-image: url("");}*/
+  /*svg.lucide-link{background-image: url("");}*/
+  /*svg.lucide-list{background-image: url("");}*/
+  /*svg.lucide-list-filter{background-image: url("");}*/
+  /*svg.lucide-list-ordered{background-image: url("");}*/
+  /*svg.lucide-list-plus{background-image: url("");}*/
+  /*svg.lucide-lock{background-image: url("");}*/
+  /*svg.lucide-maximize{background-image: url("");}*/
+  /*svg.lucide-minus{background-image: url("");}*/
+  /*svg.lucide-monitor{background-image: url("");}*/
+  /*svg.lucide-more-horizontal{background-image: url("");}*/
+  /*svg.lucide-more-vertical{background-image: url("");}*/
+  /*svg.lucide-move-vertical{background-image: url("");}*/
+  /*svg.lucide-paintbrush{background-image: url("");}*/
   /*svg.lucide-palette{}*/
-  /*svg.lucide-pencil{}*/
-  /*svg.lucide-percent{}*/
-  /*svg.lucide-picture-in-picture-2{}*/
-  /*svg.lucide-pilcrow{}*/
-  /*svg.lucide-plus{}*/
-  /*svg.lucide-plus-circle{}*/
-  /*svg.lucide-quote{}*/
-  /*svg.lucide-redo-2{}*/
-  /*svg.lucide-refresh-cw{}*/
-  /*svg.lucide-repeat{}*/
-  /*svg.lucide-rotate-ccw{}*/
-  /*svg.lucide-rotate-cw{}*/
-  /*svg.lucide-scissors{}*/
-  /*svg.lucide-search{}*/
-  /*svg.lucide-send{}*/
-  /*svg.lucide-separator-horizontal{}*/
-  /*svg.lucide-separator-vertical{}*/
-  /*svg.lucide-settings{}*/
-  /*svg.lucide-sigma{}*/
-  /*svg.lucide-sigma-square{}*/
-  /*svg.lucide-sliders-horizontal{}*/
-  /*svg.lucide-sort-asc{}*/
-  /*svg.lucide-sticky-note{}*/
-  /*svg.lucide-strikethrough{}*/
-  /*svg.lucide-table{}*/
-  /*svg.lucide-tags{}*/
-  /*svg.lucide-terminal{}*/
-  /*svg.lucide-text{}*/
-  /*svg.lucide-timer{}*/
-  /*svg.lucide-trash-2{}*/
-  /*svg.lucide-undo-2{}*/
-  /*svg.lucide-users{}*/
-  /*svg.lucide-wand-2{}*/
-  /*svg.lucide-x{}*/
-  /*svg.open-vault{}*/
-  /*svg.refresh-cw-off{}*/
-  /*svg.right-triangle{}*/
-  /*svg.sheets-in-box{}*/
-  /*svg.sidebar-toggle-button-icon{}*/
-  /*svg.snap-to-object{}*/
-  /*svg.svg-icon{}*/
-  /*svg.uppercase-lowercase-a{}*/
-  /*svg.zoom-to-selection{}*/
+  /*svg.lucide-pencil{background-image: url("");}*/
+  /*svg.lucide-percent{background-image: url("");}*/
+  /*svg.lucide-picture-in-picture-2{background-image: url("");}*/
+  /*svg.lucide-pilcrow{background-image: url("");}*/
+  /*svg.lucide-plus{background-image: url("");}*/
+  /*svg.lucide-plus-circle{background-image: url("");}*/
+  /*svg.lucide-quote{background-image: url("");}*/
+  /*svg.lucide-redo-2{background-image: url("");}*/
+  /*svg.lucide-refresh-cw{background-image: url("");}*/
+  /*svg.lucide-repeat{background-image: url("");}*/
+  /*svg.lucide-rotate-ccw{background-image: url("");}*/
+  /*svg.lucide-rotate-cw{background-image: url("");}*/
+  /*svg.lucide-scissors{background-image: url("");}*/
+  /*svg.lucide-search{background-image: url("");}*/
+  /*svg.lucide-send{background-image: url("");}*/
+  /*svg.lucide-separator-horizontal{background-image: url("");}*/
+  /*svg.lucide-separator-vertical{background-image: url("");}*/
+  /*svg.lucide-settings{background-image: url("");}*/
+  /*svg.lucide-sigma{background-image: url("");}*/
+  /*svg.lucide-sigma-square{background-image: url("");}*/
+  /*svg.lucide-sliders-horizontal{background-image: url("");}*/
+  /*svg.lucide-sort-asc{background-image: url("");}*/
+  /*svg.lucide-sticky-note{background-image: url("");}*/
+  /*svg.lucide-strikethrough{background-image: url("");}*/
+  /*svg.lucide-table{background-image: url("");}*/
+  /*svg.lucide-tags{background-image: url("");}*/
+  /*svg.lucide-terminal{background-image: url("");}*/
+  /*svg.lucide-text{background-image: url("");}*/
+  /*svg.lucide-timer{background-image: url("");}*/
+  /*svg.lucide-trash-2{background-image: url("");}*/
+  /*svg.lucide-undo-2{background-image: url("");}*/
+  /*svg.lucide-users{background-image: url("");}*/
+  /*svg.lucide-wand-2{background-image: url("");}*/
+  /*svg.lucide-x{background-image: url("");}*/
+  /*svg.open-vault{background-image: url("");}*/
+  /*svg.refresh-cw-off{background-image: url("");}*/
+  /*svg.right-triangle{background-image: url("");}*/
+  /*svg.sheets-in-box{background-image: url("");}*/
+  /*svg.sidebar-toggle-button-icon{background-image: url("");}*/
+  /*svg.snap-to-object{background-image: url("");}*/
+  /*svg.svg-icon{background-image: url("");}*/
+  /*svg.uppercase-lowercase-a{background-image: url("");}*/
+  /*svg.zoom-to-selection{background-image: url("");}*/
 
 /*---- CSS Rules ----*/
   /*a*/
